@@ -1,59 +1,150 @@
-.nav ul li a{
-    text-decoration: none;
-    color: black;
-   }
-
-.nav ul li {
-    list-style: none;
+/* reset*/
+h1,
+ul {
+	margin: 0;
+	padding: 0;
 }
 
-.hire button{
-    padding: 13px;
-    background-color: black;
-    color: white;
-    border: black;
-    border-radius: 20px;
-    width: 95%;
+body {
+	font-family: "Open Sans", sans-serif;
+	margin: 20px;
 }
 
-.call button{
-    padding: 13px;
-    background-color: black;
-    color: white;
-    border: black;
-    border-radius: 20px;
-    width: 95%;
-   
+.company {
+	font-size: 16px;
 }
 
-.hire button a{
-    text-decoration: none;
-    color: white;
+.header-nav-list {
+	list-style: none;
+}
+
+.header-nav-li {
+	margin: 5px 0;
+}
+
+.header-nav {
+	color: #69696a;
+	padding: 5px 0;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.button {
+	display: block;
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+	padding: 5px;
+	text-align: center;
+}
+
+.about-text {
+	border-left: 3px solid #69696a;
+	padding-left: 10px;
+	color: #69696a;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	left: 0;
+	width: 100%;
+	background-color: rgba(247, 193, 162, 0.7);
+}
+
+.footer-company {
+	margin-left: 20px;
+}
+
+.footer-nav {
+	margin-right: 20px;
+}
+
+.footer-nav-list {
+	display: flex;
+	list-style: none;
+}
+
+.footer-link {
+	padding: 5px;
+}
+
+@media only screen and (min-width: 768px){
+
+header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-nav-list{
+	display: flex;
+	align-items: center;
 
 }
 
-.call button a{
-    text-decoration: none;
-    color: white;
+.main-body{
+	display: flex;
 }
 
-.p{
-    border-left-style: solid;
-margin-right: 10%;
-border-width: 3px;
-color: #69696a;
+.main-content{
+	flex: 1;
 }
 
-.chirp ul li a{
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-height: 2.5rem;
-background-color: rgba(247,193,162,0.7);
-justify-content: flex-end;
-align-content: center;
-flex-direction: row;
+header,ul,li{
+	position: right;
 }
+
+.header-nav-li{
+	padding: 5px;
+	
+}
+
+.circles{
+	display: initial;
+	flex: 1;
+	position: relative;
+}
+
+.small{
+	border-radius: 50%;
+	background-color: rgba(247, 136, 167, 0.6);
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 40px;
+	margin-top: 20%;
+	
+}
+.medium{
+	border-radius: 50%;
+	background-color: rgba(247, 193, 162, 0.6);
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	right: 60px;
+	top: 30%;
+	height: 130px;
+	width: 130px;
+}
+
+	.large{
+		border-radius: 50%;
+		background-color: rgba(247, 130, 213, 0.7);
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		right: 80px;
+		top: 50%;
+		height: 170px;
+		width: 170px;
+	}
+
+	}
+
 
 
